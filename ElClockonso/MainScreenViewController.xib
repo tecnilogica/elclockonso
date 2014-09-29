@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13B3116" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainScreenViewController">
+            <connections>
+                <outlet property="alarmLabel" destination="Tyo-Ge-dOI" id="aEL-cr-msO"/>
+                <outlet property="alarmOnSwitch" destination="u0T-Xb-jT1" id="dza-4h-YSE"/>
+                <outlet property="longTapView" destination="n7l-Pq-w1B" id="DHl-c0-sfy"/>
+                <outlet property="stopAlarmButton" destination="w4M-QV-Lyh" id="agc-4I-yua"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n7l-Pq-w1B" userLabel="longTapView">
+                    <rect key="frame" x="0.0" y="35" width="320" height="498"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </view>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="u0T-Xb-jT1">
+                    <rect key="frame" x="136" y="222" width="51" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <connections>
+                        <action selector="switchTapped:" destination="-1" eventType="valueChanged" id="Djy-37-swa"/>
+                    </connections>
+                </switch>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w4M-QV-Lyh">
+                    <rect key="frame" x="20" y="476" width="280" height="72"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.94901960784313721" green="0.42352941176470588" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="72" id="K8U-mQ-Onk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="36"/>
+                    <state key="normal" title="I'm awake!">
+                        <color key="titleColor" red="0.9137254901960784" green="0.94901960784313721" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="stopAlarmTapped:" destination="-1" eventType="touchUpInside" id="jRp-z1-w8B"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tyo-Ge-dOI">
+                    <rect key="frame" x="27" y="80" width="266" height="122"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="106"/>
+                    <color key="textColor" red="0.18823529411764706" green="0.43137254901960786" blue="0.66274509803921566" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <size key="shadowOffset" width="0.0" height="0.0"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.10588235294117647" green="0.19607843137254902" blue="0.37254901960784315" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="w4M-QV-Lyh" secondAttribute="trailing" constant="20" id="0qG-cd-eFZ"/>
+                <constraint firstItem="w4M-QV-Lyh" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" id="1Uv-YV-Ep1"/>
+                <constraint firstItem="Tyo-Ge-dOI" firstAttribute="top" secondItem="1" secondAttribute="top" constant="80" id="4Qa-T7-mgY"/>
+                <constraint firstAttribute="bottom" secondItem="n7l-Pq-w1B" secondAttribute="bottom" constant="35" id="6Gx-fE-yPt"/>
+                <constraint firstAttribute="trailing" secondItem="n7l-Pq-w1B" secondAttribute="trailing" id="9YG-wc-G6s"/>
+                <constraint firstAttribute="bottom" secondItem="w4M-QV-Lyh" secondAttribute="bottom" constant="20" id="J7p-nc-qxu"/>
+                <constraint firstItem="u0T-Xb-jT1" firstAttribute="top" secondItem="1" secondAttribute="top" constant="222" id="OEf-Ur-Urk"/>
+                <constraint firstItem="n7l-Pq-w1B" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="VLq-mM-h0d"/>
+                <constraint firstItem="Tyo-Ge-dOI" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="27" id="bek-A8-OG8"/>
+                <constraint firstItem="n7l-Pq-w1B" firstAttribute="top" secondItem="1" secondAttribute="top" constant="35" id="dYN-ZK-fq5"/>
+                <constraint firstAttribute="trailing" secondItem="u0T-Xb-jT1" secondAttribute="trailing" constant="135" id="vdf-UM-khb"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

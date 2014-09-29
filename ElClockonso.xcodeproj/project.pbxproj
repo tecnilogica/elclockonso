@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D10D83B18A815C2009357EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D10D83A18A815C2009357EE /* Foundation.framework */; };
+		0D10D83D18A815C2009357EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D10D83C18A815C2009357EE /* CoreGraphics.framework */; };
+		0D10D83F18A815C2009357EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D10D83E18A815C2009357EE /* UIKit.framework */; };
+		0D10D84518A815C2009357EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D10D84318A815C2009357EE /* InfoPlist.strings */; };
+		0D10D84718A815C2009357EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10D84618A815C2009357EE /* main.m */; };
+		0D10D84B18A815C2009357EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10D84A18A815C2009357EE /* AppDelegate.m */; };
+		0D10D84D18A815C2009357EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D10D84C18A815C2009357EE /* Images.xcassets */; };
+		0D10D85418A815C2009357EE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D10D85318A815C2009357EE /* XCTest.framework */; };
+		0D10D85518A815C2009357EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D10D83A18A815C2009357EE /* Foundation.framework */; };
+		0D10D85618A815C2009357EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D10D83E18A815C2009357EE /* UIKit.framework */; };
+		0D10D85E18A815C2009357EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D10D85C18A815C2009357EE /* InfoPlist.strings */; };
+		0D10D86018A815C2009357EE /* ElClockonsoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10D85F18A815C2009357EE /* ElClockonsoTests.m */; };
+		0D10D86C18A815E7009357EE /* MainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10D86A18A815E7009357EE /* MainScreenViewController.m */; };
+		0D10D86D18A815E7009357EE /* MainScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D10D86B18A815E7009357EE /* MainScreenViewController.xib */; };
+		0D10D86F18A81D42009357EE /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D10D86E18A81D42009357EE /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D10D85718A815C2009357EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D10D82F18A815C2009357EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D10D83618A815C2009357EE;
+			remoteInfo = ElClockonso;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D10D83718A815C2009357EE /* ElClockonso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElClockonso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D10D83A18A815C2009357EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D10D83C18A815C2009357EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0D10D83E18A815C2009357EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0D10D84218A815C2009357EE /* ElClockonso-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ElClockonso-Info.plist"; sourceTree = "<group>"; };
+		0D10D84418A815C2009357EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D10D84618A815C2009357EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D10D84818A815C2009357EE /* ElClockonso-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ElClockonso-Prefix.pch"; sourceTree = "<group>"; };
+		0D10D84918A815C2009357EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D10D84A18A815C2009357EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D10D84C18A815C2009357EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0D10D85218A815C2009357EE /* ElClockonsoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElClockonsoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D10D85318A815C2009357EE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0D10D85B18A815C2009357EE /* ElClockonsoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ElClockonsoTests-Info.plist"; sourceTree = "<group>"; };
+		0D10D85D18A815C2009357EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D10D85F18A815C2009357EE /* ElClockonsoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElClockonsoTests.m; sourceTree = "<group>"; };
+		0D10D86918A815E7009357EE /* MainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenViewController.h; sourceTree = "<group>"; };
+		0D10D86A18A815E7009357EE /* MainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenViewController.m; sourceTree = "<group>"; };
+		0D10D86B18A815E7009357EE /* MainScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainScreenViewController.xib; sourceTree = "<group>"; };
+		0D10D86E18A81D42009357EE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D10D83418A815C2009357EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D10D86F18A81D42009357EE /* MediaPlayer.framework in Frameworks */,
+				0D10D83D18A815C2009357EE /* CoreGraphics.framework in Frameworks */,
+				0D10D83F18A815C2009357EE /* UIKit.framework in Frameworks */,
+				0D10D83B18A815C2009357EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D10D84F18A815C2009357EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D10D85418A815C2009357EE /* XCTest.framework in Frameworks */,
+				0D10D85618A815C2009357EE /* UIKit.framework in Frameworks */,
+				0D10D85518A815C2009357EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D10D82E18A815C2009357EE = {
+			isa = PBXGroup;
+			children = (
+				0D10D84018A815C2009357EE /* ElClockonso */,
+				0D10D85918A815C2009357EE /* ElClockonsoTests */,
+				0D10D83918A815C2009357EE /* Frameworks */,
+				0D10D83818A815C2009357EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D10D83818A815C2009357EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D10D83718A815C2009357EE /* ElClockonso.app */,
+				0D10D85218A815C2009357EE /* ElClockonsoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D10D83918A815C2009357EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D10D86E18A81D42009357EE /* MediaPlayer.framework */,
+				0D10D83A18A815C2009357EE /* Foundation.framework */,
+				0D10D83C18A815C2009357EE /* CoreGraphics.framework */,
+				0D10D83E18A815C2009357EE /* UIKit.framework */,
+				0D10D85318A815C2009357EE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D10D84018A815C2009357EE /* ElClockonso */ = {
+			isa = PBXGroup;
+			children = (
+				0D10D84918A815C2009357EE /* AppDelegate.h */,
+				0D10D84A18A815C2009357EE /* AppDelegate.m */,
+				0D10D84C18A815C2009357EE /* Images.xcassets */,
+				0D10D84118A815C2009357EE /* Supporting Files */,
+				0D10D86918A815E7009357EE /* MainScreenViewController.h */,
+				0D10D86A18A815E7009357EE /* MainScreenViewController.m */,
+				0D10D86B18A815E7009357EE /* MainScreenViewController.xib */,
+			);
+			name = ElClockonso;
+			path = ElClockonso;
+			sourceTree = "<group>";
+		};
+		0D10D84118A815C2009357EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D10D84218A815C2009357EE /* ElClockonso-Info.plist */,
+				0D10D84318A815C2009357EE /* InfoPlist.strings */,
+				0D10D84618A815C2009357EE /* main.m */,
+				0D10D84818A815C2009357EE /* ElClockonso-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D10D85918A815C2009357EE /* ElClockonsoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D10D85F18A815C2009357EE /* ElClockonsoTests.m */,
+				0D10D85A18A815C2009357EE /* Supporting Files */,
+			);
+			name = ElClockonsoTests;
+			path = ElClockonsoTests;
+			sourceTree = "<group>";
+		};
+		0D10D85A18A815C2009357EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D10D85B18A815C2009357EE /* ElClockonsoTests-Info.plist */,
+				0D10D85C18A815C2009357EE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D10D83618A815C2009357EE /* ElClockonso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D10D86318A815C2009357EE /* Build configuration list for PBXNativeTarget "ElClockonso" */;
+			buildPhases = (
+				0D10D83318A815C2009357EE /* Sources */,
+				0D10D83418A815C2009357EE /* Frameworks */,
+				0D10D83518A815C2009357EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElClockonso;
+			productName = ElClockonso;
+			productReference = 0D10D83718A815C2009357EE /* ElClockonso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D10D85118A815C2009357EE /* ElClockonsoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D10D86618A815C2009357EE /* Build configuration list for PBXNativeTarget "ElClockonsoTests" */;
+			buildPhases = (
+				0D10D84E18A815C2009357EE /* Sources */,
+				0D10D84F18A815C2009357EE /* Frameworks */,
+				0D10D85018A815C2009357EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D10D85818A815C2009357EE /* PBXTargetDependency */,
+			);
+			name = ElClockonsoTests;
+			productName = ElClockonsoTests;
+			productReference = 0D10D85218A815C2009357EE /* ElClockonsoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D10D82F18A815C2009357EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Tecnilogica;
+				TargetAttributes = {
+					0D10D85118A815C2009357EE = {
+						TestTargetID = 0D10D83618A815C2009357EE;
+					};
+				};
+			};
+			buildConfigurationList = 0D10D83218A815C2009357EE /* Build configuration list for PBXProject "ElClockonso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D10D82E18A815C2009357EE;
+			productRefGroup = 0D10D83818A815C2009357EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D10D83618A815C2009357EE /* ElClockonso */,
+				0D10D85118A815C2009357EE /* ElClockonsoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D10D83518A815C2009357EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D10D84518A815C2009357EE /* InfoPlist.strings in Resources */,
+				0D10D84D18A815C2009357EE /* Images.xcassets in Resources */,
+				0D10D86D18A815E7009357EE /* MainScreenViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D10D85018A815C2009357EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D10D85E18A815C2009357EE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D10D83318A815C2009357EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D10D86C18A815E7009357EE /* MainScreenViewController.m in Sources */,
+				0D10D84B18A815C2009357EE /* AppDelegate.m in Sources */,
+				0D10D84718A815C2009357EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D10D84E18A815C2009357EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D10D86018A815C2009357EE /* ElClockonsoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D10D85818A815C2009357EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D10D83618A815C2009357EE /* ElClockonso */;
+			targetProxy = 0D10D85718A815C2009357EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D10D84318A815C2009357EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D10D84418A815C2009357EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0D10D85C18A815C2009357EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D10D85D18A815C2009357EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D10D86118A815C2009357EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D10D86218A815C2009357EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D10D86418A815C2009357EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElClockonso/ElClockonso-Prefix.pch";
+				INFOPLIST_FILE = "ElClockonso/ElClockonso-Info.plist";
+				PRODUCT_NAME = ElClockonso;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0D10D86518A815C2009357EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElClockonso/ElClockonso-Prefix.pch";
+				INFOPLIST_FILE = "ElClockonso/ElClockonso-Info.plist";
+				PRODUCT_NAME = ElClockonso;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0D10D86718A815C2009357EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ElClockonso.app/ElClockonso";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElClockonso/ElClockonso-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ElClockonsoTests/ElClockonsoTests-Info.plist";
+				PRODUCT_NAME = ElClockonsoTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0D10D86818A815C2009357EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ElClockonso.app/ElClockonso";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElClockonso/ElClockonso-Prefix.pch";
+				INFOPLIST_FILE = "ElClockonsoTests/ElClockonsoTests-Info.plist";
+				PRODUCT_NAME = ElClockonsoTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D10D83218A815C2009357EE /* Build configuration list for PBXProject "ElClockonso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D10D86118A815C2009357EE /* Debug */,
+				0D10D86218A815C2009357EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D10D86318A815C2009357EE /* Build configuration list for PBXNativeTarget "ElClockonso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D10D86418A815C2009357EE /* Debug */,
+				0D10D86518A815C2009357EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D10D86618A815C2009357EE /* Build configuration list for PBXNativeTarget "ElClockonsoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D10D86718A815C2009357EE /* Debug */,
+				0D10D86818A815C2009357EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D10D82F18A815C2009357EE /* Project object */;
+}
